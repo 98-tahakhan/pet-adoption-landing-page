@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing-130: 32rem;
+  --spacing-90: 22rem;
+  --scale-102: 1.02;
+
+  --color-primary: #6366f1;
+  --color-accent: #22c55e;
+}

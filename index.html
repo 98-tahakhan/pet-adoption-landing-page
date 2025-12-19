@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adopt</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+<nav class="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+            <span class="text-2xl">🐾</span>
+            <h1 class="text-xl font-bold text-indigo-600">PetAdopt</h1>
+        </div>
+
+        <!-- Links -->
+        <ul class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
+            <li class="hover:text-indigo-600 cursor-pointer">Home</li>
+            <li class="hover:text-indigo-600 cursor-pointer">Pets</li>
+            <li class="hover:text-indigo-600 cursor-pointer">About</li>
+            <li class="hover:text-indigo-600 cursor-pointer">Contact</li>
+        </ul>
+
+        <!-- CTA -->
+        <button class="bg-primary text-white px-5 py-2 rounded-full transition
+        hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+            Adopt Now
+        </button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="pt-32 pb-16 text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+        Find Your New Best Friend 🐶🐱
+    </h2>
+    <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-8">
+        Adopt a loving pet and give them a forever home.
+        Browse our adorable pets waiting just for you.
+    </p>
+
+    <button class="bg-primary text-white px-8 py-3 rounded-full text-lg transition
+    hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+        View Pets
+    </button>
+</section>
+
+    <!-- Cards -->
+    <div class="bg-gradient-to-br from-indigo-200 via-white to-indigo-100 min-h-screen pt-10 flex flex-col md:flex-row gap-10 justify-evenly items-center">
+        <!-- card 1 -->
+        <div class="flex flex-col justify-between h-130 w-full sm:w-80 md:w-96 bg-gradient-to-br from-green-100 to-green-200 rounded-3xl shadow-xl hover:shadow-2xl
+            hover:scale-102 transition-all duration-200 ease-out">
+            <img src="./assets/cat.jpg" alt="cat-image" loading="lazy" class="h-90 w-full object-cover rounded-t-3xl">
+            <div class="flex items-center justify-between px-4 py-2">
+                <div class="flex items-center gap-2">
+                    <h2 class="text-xl font-bold">Mr. Cat</h2>
+                    <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full">
+                        Friendly
+                    </span>
+                </div>
+                <button class="bg-primary hover:bg-indigo-600 text-white px-4 py-2 rounded-full transition 
+                focus:outline-none focus:ring-2 focus:ring-indigo-400">Adopt
+                    Now</button>
+            </div>
+            <p class="px-3 pb-2">Mr. Cat is a really nice cat with white fur and he is very friendly to everyone, So if
+                you wanna adopt him then just click on the
+                button "Adopt Now".
+            </p>
+        </div>
+
+        <!-- card 2 -->
+        <div class="flex flex-col justify-between h-130 w-full sm:w-80 md:w-96 bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl shadow-xl hover:shadow-2xl
+            hover:scale-102 transition-all duration-300 ease-out">
+            <img src="./assets/dog.jpg" alt="cat-image" loading="lazy" class="h-90 w-full object-cover rounded-t-3xl">
+            <div class="flex items-center justify-between px-4 py-2">
+                <div class="flex items-center gap-2">
+                    <h2 class="text-xl font-bold">Mr. Dog</h2>
+                    <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">
+                        Loyal
+                    </span>
+                </div>
+                <button class="bg-primary hover:bg-indigo-600 text-white px-4 py-2 rounded-full transition
+                focus:outline-none focus:ring-2 focus:ring-indigo-400">Adopt Now</button>
+            </div>
+            <p class="px-3 pb-2">Mr. Dog is a very playful and loyal dog who loves everyone.
+                He enjoys walks, fun, and being around people.
+                If you want to adopt him, just click on the “Adopt Now” button.
+            </p>
+        </div>
+
+        <!-- card 3 -->
+        <div class="flex flex-col justify-between h-130 w-full sm:w-80 md:w-96 bg-gradient-to-br from-orange-100 to-orange-200
+            rounded-3xl shadow-xl hover:shadow-2xl hover:scale-102 transition-all duration-200 ease-out">
+            <img src="./assets/bunny.jpg" alt="cat-image" loading="lazy" class="h-90 w-full object-cover rounded-t-3xl">
+            <div class="flex items-center justify-between px-4 py-2">
+                <div class="flex items-center gap-2">
+                    <h2 class="text-xl font-bold">Mr. Bunny</h2>
+                    <span class="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded-full">
+                        Calm
+                    </span>
+                </div>
+                <button class="bg-primary hover:bg-indigo-600 text-white px-4 py-2 rounded-full transition
+                focus:outline-none focus:ring-2 focus:ring-indigo-400">Adopt Now</button>
+            </div>
+            <p class="px-3 pb-2">Mr. Bunny is a calm & adorable bunny with soft fur.
+                He is very gentle and peaceful.
+                If you want to adopt him, just click on the “Adopt Now” button.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
